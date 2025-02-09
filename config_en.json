@@ -1,0 +1,223 @@
+{
+  "HorizonLayout": [
+    {
+      "layout": "logo",
+      "showMenu": true,
+      "showSearch": true,
+      "showLogo": true,
+      "enableBackground": true
+    },
+    {
+      "layout": "category",
+      "type": "icon",
+      "useFor": "mobile",
+      "wrap": false,
+      "size": 1.0,
+      "radius": 50.0,
+      "enableBackground": true,
+      "items": [
+        {
+          "category": "gid://shopify/Collection/14423165",
+          "image": "https://cdn.shopify.com/s/files/1/0219/2666/products/NEW_Set3-black-01.png?v=1677684872",
+          "colors": [
+            "#3CC2BF",
+            "#3CC2BF"
+          ],
+          "originalColor": false
+        },
+        {
+          "category": "gid://shopify/Collection/9403128",
+          "image": "https://cdn.shopify.com/s/files/1/0219/2666/products/redbottom-F.png?v=1713737484",
+          "colors": [
+            "#3E6AB5",
+            "#3E6AB5"
+          ], "originalColor": false
+        },
+        {
+          "category": "gid://shopify/Collection/223235521",
+          "image": "https://cdn.shopify.com/s/files/1/0219/2666/products/RETRO_Red-02.png?v=1571438565",
+          "colors": [
+            "#53A2CC",
+            "#53A2CC"
+          ], "originalColor": false
+        } 
+      ]
+    },
+    {
+      "layout": "bannerImage",
+      "isSlider": true,
+      "autoPlay": false,
+      "showNumber": false,
+      "design": "default",
+      "showBackGround": true,
+      "radius": 2.0,
+      "enableBackground": true,
+      "items": [
+        {
+          "category": "gid://shopify/Collection/300857163887",
+          "image": "https://cdn.shopify.com/s/files/1/0219/2666/files/instories_A41D2FFB-56D3-4633-8AEF-646E558B1C62.png?v=1736202551",
+          "padding": 15.0
+        },
+        {
+          "category": "gid://shopify/Collection/295266222191",
+          "image": "https://cdn.shopify.com/s/files/1/0219/2666/files/tempImageGYkTNl.heic?v=1725393149",
+          "padding": 15.0
+        },
+        {
+          "category": "gid://shopify/Collection/297217687663",
+          "image": "https://cdn.shopify.com/s/files/1/0219/2666/files/instories_2B56BCA3-DEEF-4C0E-A1DF-F7C4A1108278.png?v=1720634410",
+          "padding": 15.0
+        }
+      ]
+     
+    },
+    {
+      "layout": "bannerImage",
+      "items": [
+        {
+          "category": "gid://shopify/Collection/288515260527",
+          "image": "https://cdn.shopify.com/s/files/1/0219/2666/files/instories_96444FFD-1F6E-473F-8AEE-948E3CCE723D.png?v=1707657565",
+          "padding": 5.0
+        },
+        {
+          "category": "gid://shopify/Collection/300092162159",
+          "image": "https://cdn.shopify.com/s/files/1/0219/2666/files/instories_73994596-4AC4-40A1-B8C9-69D42781F5C1.png?v=1733931209",
+          "padding": 5.0,
+          "featured": true
+        }
+      ]
+    },
+    {
+      "name": "Recent View",
+      "layout": "recentView"
+    },
+    {
+      "name": "New ARRIVALS",
+      "layout": "staggered",
+      "limit": 20,
+      "category": "gid://shopify/Collection/291647389807"
+    },
+    {
+      "name": "COVER-UPS",
+      "image": "",
+      "layout": "threeColumn",
+      "category": "gid://shopify/Collection/95812452463",
+      "isSnapping": true
+    },
+    {
+      "name": "Cameeli Sports",
+      "image": "",
+      "layout": "twoColumn",
+      "category": "gid://shopify/Collection/283582726255",
+      "isSnapping": true
+    }
+    
+  ],
+  "Setting": {
+    "MainColor": "#FF71E4",
+    "ProductListLayout": "list",
+    "StickyHeader": false,
+    "ShowChat": false
+  },
+  "TabBar": [
+    {
+      "layout": "home",
+      "icon": "home",
+      "pos": 100,
+      "fontFamily": "CupertinoIcons",
+      "key": "p1q235ba14"
+    },
+    {
+      "pos": 200,
+      "layout": "category",
+      "icon": "rectangle_grid_1x2",
+      "fontFamily": "CupertinoIcons",
+      "categoryLayout": "card",
+      "key": "hwu0rkrizt",
+      "remapCategories": [
+        {
+          "category": "gid://shopify/Collection/446745674033",
+          "name": "Features",
+          "image": "https://cdn.shopify.com/s/files/1/0331/5230/3239/collections/fashion-PN7FSF5_350x500.jpg?v=1581920391"
+        },
+        {
+          "parent": "gid://shopify/Collection/446745674033",
+          "category": "gid://shopify/Collection/446745739569",
+          "name": "Bags"
+        },
+        {
+          "parent": "gid://shopify/Collection/446745674033",
+          "category": "gid://shopify/Collection/446745641265",
+          "name": "Clothing"
+        },
+        {
+          "parent": "gid://shopify/Collection/446745674033",
+          "category": "gid://shopify/Collection/446745936177",
+          "name": "Shoes"
+        },
+        {
+          "category": "gid://shopify/Collection/446745444657",
+          "name": "Women"
+        },
+        {
+          "category": "gid://shopify/Collection/444187279665",
+          "name": "Man"
+        }
+      ]
+    },
+    {
+      "key": "2reihs4qzc",
+      "icon": "search",
+      "layout": "search",
+      "fontFamily": "CupertinoIcons",
+      "pos": 300,
+      "size": 24
+    },
+    {
+      "pos": 400,
+      "icon": "bag",
+      "layout": "cart",
+      "categoryLayout": "cart",
+      "key": "a2xts0oou6",
+      "fontFamily": "CupertinoIcons"
+    },
+    {
+      "layout": "profile",
+      "icon": "assets/icons/tabs/icon-user.png",
+      "showChat": false,
+      "showBackground": true,
+      "styleItem": "listTile",
+      "settingStyle": "normal"
+    }
+  ],
+  "searchSuggestion": [
+    "Here are some suggestions:",
+    "Ribbed",
+    "Mesh",
+    "Rose Red",
+    "Bottoms"
+  ],
+  "OnBoarding": {
+    "data": [
+      {
+        "title": "Welcome to BoutineLA",
+        "image": "assets/images/fogg-delivery-1.png",
+        "desc": "The Worlds Most Famous Swim Brand. ",
+        "background": "#FFF3F2"
+      },
+      {
+        "title": "Shop from anywhere in the world",
+        "image": "assets/images/fogg-uploading-1.png",
+        "desc": "We ship free to the continental US within 2 Days + Affordable International Shipping.",
+        "background": "#F2FFFC"
+      },
+      {
+        "title": "Shop Now",
+        "image": "fogg-order-completed.png",
+        "desc": "Save when you add to cart!",
+        "background": "#F9F2FF"
+      }
+    ]
+  },
+  "PrivacyPoliciesPageUrlOrId": "https://www.boutinela.com/pages/privacy-policy"
+}
